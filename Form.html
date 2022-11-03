@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Wanderlust</title>
+</head>
+<body>
+    <div>
+        <h1 class="titulo">Cadastro</h1>
+        <h4 class="subtitulo">Complete com suas informações.</h4>
+    </div>
+
+    <form>
+        <fieldset class="grupo">
+            <div>
+                <label for="nome"><b>Nome</b></label>
+                <input type="text" name="nome" id="nome" required="">
+            </div>
+
+            <div>
+                <label for="sobrenome"><b>Sobrenome</b></label>
+                <input type="text" name="sobrenome" id="sobrenome" required="">
+            </div>
+           
+            <div>
+                <label for="email"><b>Email</b></label>
+                <input type="email" name="email" id="email" required="">
+            </div>
+           
+            <div>
+                <label for="data de nascimento"><b>Data de nascimento</b></label>
+                <input type="date" id="data de nascimento" name="data de nascimento">
+              </div>
+        </fieldset>
+
+        <div class="campo">
+            <label><h2><b>Qual é o seu continente favorito?</b></h2></label>
+            <h4>Selecione dentre as opções abaixo.</h4>
+            <br>
+            <label>
+                <input type="radio" name="continente" value="América"> América
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="continente" value="África"> África
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="continente" value="Europa"> Europa
+            </label>
+            <br>
+            <label>
+                 <input type="radio" name="continente" value="Ásia"> Ásia
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="continente" value="Oceania"> Oceania
+            </label>
+            <br>
+            
+            <div>
+                <label for="notificações"><h3 class="notificacoes-titulo"><b>Você gostaria de receber notificações do nosso site?</b></h3></label>
+                <select id="Você gostaria de receber notificações do site?">
+                  <option selected="" disabled="" value="">Selecione</option>
+                  <option>Sim</option>
+                  <option>Não</option>
+                </select>
+            </div>
+          <br>
+            
+              <fieldset class="grupo">
+                <div>
+                 <label><h3><b>Selecione o seu nivel de experiência em viagens</b></h3></label>
+                 <p></p><h4>Para que possamos trazer mais sobre o mundo de viagens e possamos proporcionar o melhor a você.</h4><p></p>
+                 <input type="checkbox" id="nivel1" name="nivel1" value="Iniciante">
+                 <label for="nivel de conhecimento1">Iniciante</label>
+                 <input type="checkbox" id="nivel2" name="nivel2" value="Intermediário">
+                 <label for="nivel de conheimento2">Intermediário</label>
+                 <input type="checkbox" id="nivel3" name="nivel3" value="Avançado">
+                 <label for="nivel de conhecimento">Avançado</label>
+                </div>
+              </fieldset>
+            <div>
+                <br>
+                <label><h3><b>Nos conte um pouco sobre você, e oque viajar provoca em você:</b></h3></label>
+                <br>
+                <textarea row="6" style="width:100em" id="Sobre você" name="Sobre você"></textarea>
+            </div>
+            <br>
+            <button class="botao" type="submit">Concluído</button>
+        </div>
+    </form>
+</body>
+</html>
