@@ -5,37 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro Wanderlust</title>
+    <link rel="stylesheet" href="Cadastro.css">
 </head>
 <body>
+    <div class="container">
     <section class="area-cadastro">
         <h2>Cadastre-se</h2>
         <div class="cadastro">
                 <div>
-                    <label for="nome"><b>Nome</b></label>
-                    <input type="text" name="nome" id="nome" required="">
+                    <input type="text" name="nome" id="nome" placeholder="Nome" required="Preencha este campo.">
                 </div>
             <br>
                 <div>
-                    <label for="usuario"><b>Usuário</b></label>
-                    <input type="text" name="usuario" id="usuario" required="">
+                    <input type="text" name="usuario" id="usuario" placeholder="Usuário" required="Preencha este campo.">
                 </div>
             <br>    
                 <div>
-                    <label for="email"><b>Email</b></label>
-                    <input type="email" name="email" id="email" required="">
+                    <input type="email" name="email" id="email" placeholder="Email" required="Preencha este campo.">
                 </div>
             <br>   
                 <div>
-                    <label for="senha"><b>Senha</b></label>
-                    <input type="password" name="senha" id="senha" required="">
+                    <input type="password" name="senha" id="senha" placeholder="Senha" required="Preencha este campo.">
                 </div>
             <br>
                 <div>
-                    <label for="confirmsenha"><b>Confirmar Senha</b></label>
-                    <input type="password" name="confirmsenha" id="confirmsenha" required="">
+                    <input type="password" name="confirmsenha" id="confirmsenha" placeholder="Confirmar Senha" required="Preencha este campo.">
                 </div>
-                <input type="submit" value="Cadastre-se">
+                <br>
+                <form>
+                <button type="submit" id="butao" value="Cadastre-se">Cadastre-se</button>
+                </form>
         </div>
     </section>
+    </div>
 </body>
 </html>

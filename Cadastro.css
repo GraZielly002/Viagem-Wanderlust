@@ -1,0 +1,52 @@
+body{
+    background-color:#318CE7;
+    overflow: hidden;
+}
+  .container{
+    height: 80vh;
+    width: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2{
+    color:#298ce9;
+    margin-left: 67px;
+    }
+.area-cadastro{
+ width: 455px;
+ height: 420px;
+ background-color: #F4F1F1;
+ border: 10px solid #F4F1F1;
+ padding: 15px;
+ border-radius: 10px;
+ flex-direction: column;
+}
+.area-cadastro input{
+    margin-top: 10px;
+    background-color:#D9D9D9;
+    border: none;
+    height: 30px;
+    outline: none;
+    border-radius: 3px;
+    color: #000000;
+    padding-left: 10px;
+    margin-left: 33px;
+}
+input::placeholder{
+    color: #4E4D48;
+    font-size: 14px;
+}
+#butao{
+    display: block;
+    background-color: #318CE7;
+    font-size: 15px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin: 10px 83px;
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+}
