@@ -48,12 +48,16 @@ input::placeholder{
   font-size: 20px;
   font-weight: bold;
   color: #FFFFFF;
-  margin: 10px 83px;
+  margin: 10px 65px;
   cursor: pointer;
   border: none;
   border-radius: 15px;
+  width: 100px; 
+  height: 35px;
+
 }
 a{
   color: #318CE7;
   text-decoration:none;
+  line-height: 7px;
 }

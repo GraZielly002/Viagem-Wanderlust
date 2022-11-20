@@ -45,8 +45,10 @@ input::placeholder{
     font-size: 15px;
     font-weight: bold;
     color: #FFFFFF;
-    margin: 10px 83px;
+    margin: 10px 65px;
     cursor: pointer;
     border: none;
     border-radius: 15px;
+    width: 110px; 
+    height: 50px;
 }

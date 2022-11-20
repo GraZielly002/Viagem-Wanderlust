@@ -5,30 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário Wanderlust</title>
+    <link rel="stylesheet" href="Form.css">
 </head>
 <body>
-    <div>
+    <div class="intro">
         <h1 class="titulo">Cadastro</h1>
         <h4 class="subtitulo">Complete com suas informações.</h4>
     </div>
 
-    <form>
+    <form id="principal">
         <fieldset class="grupo">
             <div>
                 <label for="nome"><b>Nome</b></label>
                 <input type="text" name="nome" id="nome" required="">
             </div>
-
+             
             <div>
                 <label for="sobrenome"><b>Sobrenome</b></label>
                 <input type="text" name="sobrenome" id="sobrenome" required="">
             </div>
-           
+             
             <div>
                 <label for="email"><b>Email</b></label>
                 <input type="email" name="email" id="email" required="">
             </div>
-           
+             
             <div>
                 <label for="data de nascimento"><b>Data de nascimento</b></label>
                 <input type="date" id="data de nascimento" name="data de nascimento">
@@ -37,7 +38,7 @@
 
         <div class="campo">
             <label><h2><b>Qual é o seu continente favorito?</b></h2></label>
-            <h4>Selecione dentre as opções abaixo.</h4>
+            <h4 class="sub-titulo2">Selecione dentre as opções abaixo.</h4>
             <br>
             <label>
                 <input type="radio" name="continente" value="América"> América
@@ -70,7 +71,7 @@
             </div>
           <br>
             
-              <fieldset class="grupo">
+              <fieldset class="grupo2">
                 <div>
                  <label><h3><b>Selecione o seu nivel de experiência em viagens</b></h3></label>
                  <p></p><h4>Para que possamos trazer mais sobre o mundo de viagens e possamos proporcionar o melhor a você.</h4><p></p>
@@ -82,14 +83,15 @@
                  <label for="nivel de conhecimento">Avançado</label>
                 </div>
               </fieldset>
-            <div>
+            <div class="cap-final" style="background-color: #F4F1F1; margin-top: 20px; border-radius: 15px;">
                 <br>
                 <label><h3><b>Nos conte um pouco sobre você, e oque viajar provoca em você:</b></h3></label>
                 <br>
-                <textarea row="6" style="width:100em" id="Sobre você" name="Sobre você"></textarea>
+                <textarea row="6" style="width:25em"  id="Sobre você" name="Sobre você"></textarea>
+            
+              <br>
+              <button class="botao" type="submit">Concluído</button>
             </div>
-            <br>
-            <button class="botao" type="submit">Concluído</button>
         </div>
     </form>
 </body>

@@ -5,91 +5,122 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Favoritos</title>
+    <link rel="stylesheet" href="Favorito.css">
 </head>
 <body>
     <header class="cabecalho">
-        <a href="index.html"><img class="cabecalho-imagem" src="imgs/logo.png" alt="Logo WanderLust"></a>
-        <nav class="cabecalho-menu">
-            <a class="cabecalho-menu-item" href="index.html">Inicio</a>
-            <a class="cabecalho-menu-item" href="destinos.html">Destinos</a>
-            <a class="cabecalho-menu-item" href="equipe.html">Equipe</a>
-            <a class="cabecalho-menu-item" href="ajuda.html">Ajuda e Contato</a>
-        </nav>
+      <a href="index.html">
+        <img src="../imgs/wanderlustlogo.png" alt="Login" height=170>
+    </a>
+    <nav class="cabecalho-menu">  
+        <img src="imgs/filtro.png" alt="Filtro" height=31>
+        <img src="imgs/favoritos.png" alt="Favoritos" height=31>
+        <img src="imgs/login.png" alt="Login" height=31>
+
+        <div class="dropdown">
+            <button class="dropbtn"> ☰ Menu</button>
+           <div class="dropdown-content">
+               <a class="cabecalho-menu-item" href="index.html">Início</a>
+               <a class="cabecalho-menu-item" href="destinos.html">Destinos</a>
+               <a class="cabecalho-menu-item" href="equipe.html">Equipe</a>
+               <a class="cabecalho-menu-item" href="ajuda.html">Ajuda</a>
+           </div>
+       </div>    
+    </nav>
     </header>
     <br>
-    <h2>Minhas viagens favoritas:</h2>
+    <h2 class="princ">Minhas viagens favoritas:</h2>
     <br>
     
-     <section class="fav1">
-       <a href="#"><img class="img1" src="florença.jpg" alt="Imagem Florença" width=250 height=250></a>
-      <section class="intr1">
-        <h2>Florença</h2>
-        <p>6 diárias</p>
-      </section>
+     <div class="conteiner">
+       <a href="#"><img class="img1" src="../america/imagens2/rio.jpg" alt="Imagem Rio de Janeiro" width=250 height=145></a>
+        <h2 class="t1">Rio de Janeiro</h2>
+        <br>
+        <p class="dias1">5 diárias</p>
+        <br>
       <div class="dest1">
         <p id="hosp">Hospedagem</p> <p id="alim">Alimentação</p> <p id="pas1">Passagem aérea</p>
       </div>
       <div class="val1">
-        <p>A partir de 4.856,00 + taxas Em 12x</p>
+        <p>A partir de</p> 
+        
+        <p class="p1">3.200,00</p>
+      
+        <p>+ taxas Em 12x</p>
       </div>
-    </section>
+    </div>
 
-    <section class="fav2">
-        <a href="#"><img class="img2" src="nice.jpg" alt="Imagem" width=250 height=250></a>
-       <section class="intr2">
-         <h2>Nice</h2>
-         <p>8 diárias</p>
-       </section>
+    <div class="conteiner2">
+        <a href="#"><img class="img2" src="../europa/imagens4/veneza.jpg" alt="Imagem Veneza" width=250 height=145></a>
+         <h2 class="t2">Veneza</h2>
+         <br>
+         <p class="dias2">5 diárias</p>
+         <br>
        <div class="dest2">
          <p id="hosp2">Hospedagem</p> <p id="alim2">Alimentação</p> <p id="pas2">Passagem aérea</p>
        </div>
        <div class="val2">
-         <p>A partir de 8.168,00 + taxas Em 12x</p>
+        <p>A partir de</p> 
+        
+        <p class="p2">5.182,00</p>
+      
+        <p>+ taxas Em 12x</p>
        </div>
      </section>
 
-     <section class="fav3">
-        <a href="#"><img class="img3" src="paris.jpg" alt="Imagem" width=250 height=250></a>
-       <section class="intr3">
-         <h2>Paris</h2>
-         <p>5 diárias</p>
-       </section>
+     <div class="conteiner3">
+        <a href="#"><img class="img3" src="paris.jpg" alt="Imagem" width=250 height=145></a>
+         <h2 class="t3">Paris</h2>
+         <br>
+         <p class="dias3">5 diárias</p>
+         <br>
        <div class="dest3">
          <p id="hosp3">Hospedagem</p> <p id="alim3">Alimentação</p> <p id="pas3">Passagem aérea</p>
        </div>
        <div class="val3">
-         <p>A partir de 5.899,00 + taxas Em 12x</p>
+        <p>A partir de</p> 
+        
+        <p class="p2">5.899,00</p>
+      
+        <p>+ taxas Em 12x</p>
        </div>
-     </section>
+      </div>
 
-    <footer class="rodape">
-        <div class="rodape-primario">
-            <p class="rodape-frase">FRASE</p>
-            <div class="rodape-imagens">
-                <a href="">
-                    <img src="../imgs/instagram.png" alt="Logo Instagram" width=50 height=50> 
+      <footer class="rodape">
+        <footer>
+            <div class="container-fluid cor alinha last">
+                <h3 class="titulo">Nos siga e entre nessa viagem!</h3>
+
+                <a href="https://www.instagram.com/agency_wanderlust/" target="_blank" rel="noreferrer noopener">
+                    <img class="rodape-icone" src="../imgs/instagram.png" alt="Instagram">
                 </a>
 
-                <a href="">
-                    <img src="../imgs/twitter.png" alt="Logo Twitter" width=50 height=50>
+                <a href="" target="_blank" rel="noreferrer noopener">
+                    <img class="rodape-icone" src="../imgs/twitter.png" alt="Twitter">
                 </a>
 
-                <a href="">
-                    <img src="../imgs/spotify.png" alt="Logo Spotify" width=50 height=50>
+                <a href="" target="_blank" rel="noreferrer noopener">
+                    <img class="rodape-icone" src="../imgs/gmail.png" alt="Gmail">
                 </a>
 
-                <a href="">
-                    <img src="../imgs/gmail.png" alt="Logo Gmail" width=55 height=50>
+                <a href="https://open.spotify.com/user/31qn7rk7oucf6pp25gftx22572ra?si=00a729e311684e34&nd=1" target="_blank" rel="noreferrer noopener">
+                    <img class="rodape-icone" src="../imgs/spotify.png" alt="Spotify">
                 </a>
+
+                <p class="texto">
+                    <strong>
+                    Info • Suporte • Marketing <br>
+                    Termos de Uso • Política de Privacidade
+                </strong>
+                </p>
             </div>
-
-            <p class="">Info •  Suporte •  Marketing </p>
-            <p class="">Termos de Uso •  Política de Privacidade </p>
-        </div>
-
-        <div class="rodape-secundario">
-            <p class="">Wanderlust © 2022 Copyright</p>
-        </div>
+        </footer>
+    
+        <section>
+            <div class="container-fluid cor2 alinha">
+                <p><strong>Wanderlust © 2022 Copyright</strong></p>
+            </div>
+        </section>
     </footer>
 </body>
 </html>
