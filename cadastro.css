@@ -2,7 +2,7 @@ body{
     background-color:#318CE7;
     overflow: hidden;
 }
-  .container{
+.container{
     height: 80vh;
     width: 40vh;
     display: flex;
@@ -13,16 +13,26 @@ body{
 }
 h2{
     color:#298ce9;
-    margin-left: 67px;
-    }
+    display: flex;
+    justify-content: center;
+    font-family: 'Nunito', sans-serif;
+}
+.cadastro{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Nunito', sans-serif;
+}
 .area-cadastro{
- width: 455px;
- height: 420px;
- background-color: #F4F1F1;
- border: 10px solid #F4F1F1;
- padding: 15px;
- border-radius: 10px;
- flex-direction: column;
+    width: 455px;
+    height: 420px;
+    background-color: #F4F1F1;
+    border: 10px solid #F4F1F1;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .area-cadastro input{
     margin-top: 10px;
@@ -32,8 +42,6 @@ h2{
     outline: none;
     border-radius: 3px;
     color: #000000;
-    padding-left: 10px;
-    margin-left: 33px;
 }
 input::placeholder{
     color: #4E4D48;
@@ -45,10 +53,26 @@ input::placeholder{
     font-size: 15px;
     font-weight: bold;
     color: #FFFFFF;
-    margin: 10px 65px;
     cursor: pointer;
     border: none;
     border-radius: 15px;
     width: 110px; 
     height: 50px;
+    margin-top: 1.3rem;
+}
+#senha{
+    display: inline-flex;
+}
+#mostrar{
+    width: 2vw;
+    height: 1.5vw;
+    margin-top: 1rem;
+    display: inline-block;
+}
+#mstext{
+    margin-top: 1.1rem;
+    font-family: 'Nunito', sans-serif;
+}
+#cf{
+    margin: -2rem;
 }

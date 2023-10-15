@@ -26,16 +26,16 @@
                 <br>   
                     <div>
                         <input type="password" name="senha" id="senha" placeholder="Senha" required="Preencha este campo."><br>
-                        <input type="checkbox" onclick="">Mostrar Senha
+                        <div id="senha">
+                        <input type="checkbox" id="mostrar" onclick="mostrarOcultarSenha()"><p id="mstext">Mostrar Senha</p>
+                        </div>
                     </div>
                 <br>
-                    <div>
+                    <div id="cf">
                         <input type="password" name="confirmsenha" id="confirmsenha" placeholder="Confirmar Senha" required="Preencha este campo.">
                     </div>
                     <br>
-                    <form>
-                    <button type="submit" id="butao" value="Cadastre-se">Cadastre-se</button>
-                    </form>
+                    <button type="submit" id="butao" onclick="enviar()" value="Cadastre-se">Cadastre-se</button>
             </div>
         </section>
         </div>
